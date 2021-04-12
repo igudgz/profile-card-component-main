@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("./images/bg-pattern-bottom.svg"),
+    url("./images/bg-pattern-top.svg");
+  background-position: 50vw 34vw, -55vh -106vh;
+  background-repeat: no-repeat;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  bottom: 5px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.caixa {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.caixinha {
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  position: relative;
+}
+ul {
+  width: 350px;
+  height: 100px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 0.1px solid hsl(0, 0%, 59%);
+}
+
+li {
+  margin-top: 20px;
+}
+.letraforte {
+  font-weight: bold;
+  color: hsl(229, 23%, 23%);
+  font-size: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.letrafraca {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 10px;
+  color: hsl(227, 10%, 46%);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.bgProfile img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.victor {
+  position: absolute;
+  top: 78px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.usuario {
+  display: flex;
+  align-items: baseline;
+}
+
+.usuario p:first-child {
+  margin-right: 10px;
+}
+.usuario p + p {
+  vertical-align: baseline;
+}
+
+.idade {
+  font-size: 20px;
+  color: #969696;
+  font-weight: lighter;
+}
+.localidade {
+  padding: 5px 0;
+  font-weight: bold;
+  color: #969696;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
